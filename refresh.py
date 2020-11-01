@@ -9,6 +9,7 @@ def Print(l,beg=0,end=2):
 		return 0
 	for _ in range(beg,end):
 		print l[_],str(len(l[_]))
+		
 renamed_count = 0
 l = os.listdir(p)
 for a in l:
