@@ -1,1 +1,28 @@
-new file
+# Set to true to add assignees to pull requests
+addAssignees: true
+
+# A list of reviewers to be added to pull requests (GitHub user name)
+# a floating reviewer needs a weight, by default its one
+addReviewers: false
+
+reviewers:
+    total: 2
+    minFixed: 0
+    fixed:
+        - ankur17
+        - AbhijeetKikawat
+    floating:
+        - tushar8298
+
+# Settings for autoDelete Feature
+autoDelete: true
+
+autoDeleteSettings:
+    exclude:
+        - dev
+        - master
+
+# Release drafting
+releaseDrafting: false
+
+slackWebhook: 'https://hooks.slack.com/services/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'
