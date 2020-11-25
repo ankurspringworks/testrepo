@@ -23,15 +23,16 @@ autoDeleteSettings:
         - master
 
 # Release drafting
-releaseDrafting: false
+releaseDrafting: true
 
 
 branchToIssueSettings:
-    mandatory: true # will give a warnign as comment, if doest not follow the rule
-    pattern: /^SPRC-[\d]+/
-    message: Please follow the ticket link: [ticket](https://springrole.atlassian.net/browse/<%ticket%>)
-    seperator : true ## --- as default
-    position : TOP. # TOP (default)
+    # will give a warning as comment, if doest not follow the rule
+    mandatory: true
+    pattern: "/^SPRC-[\d]+/"
+    message: "Please follow the ticket link: [ticket](https://springrole.atlassian.net/browse/<%ticket%>)"
+    seperator: true ## --- as default
+    position: TOP. # TOP (default)
     errorMsg: Please consider following the ticket pattern for branch naming  # (default) if mandatory=true
 
 slackWebhook: https://hooks.slack.com/services/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
