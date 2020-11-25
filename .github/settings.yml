@@ -29,7 +29,7 @@ releaseDrafting: true
 branchToIssueSettings:
     # will give a warning as comment, if doest not follow the rule
     mandatory: true
-    pattern: "/^SPRC-[\d]+/"
+    pattern: /^SPRC-[\d]+/
     message: "Please follow the ticket link: [ticket](https://springrole.atlassian.net/browse/<%ticket%>)"
     seperator: true ## --- as default
     position: TOP. # TOP (default)
