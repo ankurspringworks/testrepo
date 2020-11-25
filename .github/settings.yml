@@ -23,7 +23,7 @@ autoDeleteSettings:
         - master
 
 # Release drafting
-releaseDrafting: true
+releaseDrafting: false
 
 
 branchToIssueSettings:
