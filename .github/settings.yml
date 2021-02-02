@@ -35,4 +35,10 @@ branchToIssueSettings:
     position: TOP. # TOP (default)
     errorMsg: Please consider following the ticket pattern for branch naming  # (default) if mandatory=true
 
-slackWebhook: https://hooks.slack.com/services/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
+slackWebhook:
+    url: https://hooks.slack.com/services/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
+    tagReviewers: true
+    users:
+        ankur17: U0131H79F44
+        AbhijeetKikawat: U01GT6VTLQN 
+        Manjula: U01J2HKMYLQ
