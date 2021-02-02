@@ -36,7 +36,7 @@ branchToIssueSettings:
     errorMsg: Please consider following the ticket pattern for branch naming  # (default) if mandatory=true
 
 slackWebhook:
-    url: https://hooks.slack.com/services/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
+    url: https://hooks.slack.com/services/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
     tagReviewers: true
     users:
         ankur17: U0131H79F44
