@@ -21,6 +21,7 @@ autoDeleteSettings:
     exclude:
         - dev
         - master
+    smartDelete: true
 
 # Release drafting
 releaseDrafting: false
