@@ -15,7 +15,7 @@ reviewers:
         - tushar8298
 
 # Settings for autoDelete Feature
-autoDelete: false
+autoDelete: true
 
 autoDeleteSettings:
     exclude:
