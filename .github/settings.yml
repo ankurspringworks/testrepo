@@ -27,4 +27,4 @@ releaseDrafting: false
 
 slackWebhook: 
     message : Please merge it
-    url : https://hooks.slack.com/services/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
+    url : https://hooks.slack.com/services/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MM
