@@ -27,6 +27,14 @@ autoDeleteSettings:
 releaseDrafting: false
 
 
+autoBranchSync: true
+autoBranchSyncSettings:
+    syncOrder:
+        - SPRC-1713
+        - master
+        - SPRC-1000
+
+
 branchToIssueSettings:
     # will give a warning as comment, if doest not follow the rule
     mandatory: true
